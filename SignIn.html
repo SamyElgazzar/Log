@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/main.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="mt-5 mb-3">Sign In</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Enter your email</label>
+                <input type="email" id="email" name="email" class="form-control" >
+            </div>
+            <div class="form-group">
+                <label for="password">Enter your password</label>
+                <input type="password" id="password" name="password" class="form-control" >
+            </div>
+            <div class="alert alert-danger d-none" id="alert">Incorrect EmailOr Password </div>
+            <div class="form-group">
+            <button type="submit" class="btn btn-primary">Sign In</button>
+            </div>
+        </form>
+        <div class="sign-up-link">
+            <p>Don't have an account? <a href="index.html">Sign up</a></p>
+        </div>
+    </div>
+    
+
+    
+    <script src="Js/SignIn.js" ></script>
+</body>
+</html>
+
